@@ -471,3 +471,123 @@ ul li:hover {
 .f-three {
     cursor: pointer;
 }
+
+
+/* RESPONSIVE SCREEN */
+
+
+@media screen and (max-width: 1030px) {
+    body {
+        overflow-x: hidden;
+    }
+
+    .main-head {
+        justify-content: space-around;
+    }
+
+    nav ul {
+        display: flex;
+        justify-content: center;
+        /* margin-left: -3rem; */
+    }
+
+    ul li {
+        margin-left: 1rem;
+    }
+
+    .hero-text {
+        margin-right: 1rem;
+    }
+
+    .hero-text h1 {
+        font-size: 3rem;
+        font-weight: 100;
+        letter-spacing: 2px;
+    }
+
+    .hero-text p {
+        font-size: 1rem;
+        white-space: nowrap;
+    }
+
+    .hero-text button {
+        padding: 12px 22px;
+    }
+
+    .hero-img img {
+        width: 18rem;
+    }
+
+    .gal-1 img {
+        width: 20rem;
+        height: 28rem;
+        margin-right: 1rem;
+    }
+
+    .gal-2 img {
+        width: 13.2rem;
+        margin-bottom: 1rem;
+        margin-left: 1rem;
+    }
+
+    .gal-1 p {
+        rotate: -90deg;
+        margin-right: -22rem;
+        white-space: nowrap;
+        font-size: 1.2rem;
+    }
+
+    .product-2 {
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+        justify-content: center;
+        max-width: 1050px;
+        width: 100%;
+    }
+
+    .row img {
+        width: 12.5rem;
+        margin-left: 0.3rem;
+    }
+
+    .all-p-text {
+        display: flex;
+        align-items: center;
+        justify-content: space-around;
+        margin-left: 0.5rem;
+        width: 100%;
+    }
+
+    .p-on {
+        margin-left: -5rem;
+    }
+
+    .p-to {
+        margin-right: -5rem;
+    }
+
+    .pro-txt {
+        justify-content: space-between;
+        padding-right: 0.5rem;
+        margin-top: -2rem;
+    }
+
+    .about-logo img {
+        width: 6rem;
+    }
+
+    .villian-display {
+        display: flex;
+        align-items: center;
+        justify-content: center;
+        margin-bottom: 1rem;
+    }
+
+    .villian-display img {
+        width: 7rem;
+        /* margin-left: 0.6rem; */
+        /* margin-right: 0.6rem; */
+    }
+
+}
